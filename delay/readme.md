@@ -1,0 +1,1 @@
+- setTimeout과 promise를 이용하여 의도적으로 시간을 대기하는 함수.
