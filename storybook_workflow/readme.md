@@ -1,0 +1,3 @@
+- storybook을 chromatic으로 자동 배포 후 링크를 pr 댓글로 남겨주는 workflow이다.
+- yarn을 쓰는 경우 ```npm ci``` 대신 ```yarn install --frozen-lockfile```를 쓰면 된다고 한다.
+- Publish to Chromatic 부분에서 id는 결과물을 추척하는 데에 쓰이는 모양이다. 그래서 마지막 message 부분에서 이에 접근해서 url 링크를 받아오고 있다.
